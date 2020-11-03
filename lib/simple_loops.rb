@@ -11,10 +11,11 @@ def loop_message_n_times(message, number)
 end
 
 def output_array(message, number)
-  
+  number.times do
+    puts message
 end
 
 def return_string_array(array)
   new_array = array.to_s
-  puts new_array
+  new_array
 end
