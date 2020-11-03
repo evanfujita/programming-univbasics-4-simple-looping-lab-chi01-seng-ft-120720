@@ -14,6 +14,7 @@ def output_array(message, number)
   number.times do
     puts message
 end
+end
 
 def return_string_array(array)
   new_array = array.to_s
