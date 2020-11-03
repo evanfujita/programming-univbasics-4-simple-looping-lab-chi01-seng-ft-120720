@@ -20,9 +20,8 @@ end
 
 def return_string_array(array)
   counter = 0 
-  new_array = []
   while counter > array.length do
-    new_array[counter] = array[counter].to_s
+    array[counter] = array[counter].to_s
     counter += 1
   end
   new_array
