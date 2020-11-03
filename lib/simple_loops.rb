@@ -23,6 +23,6 @@ def return_string_array(array)
   new_array = array.to_s
   while counter > new_array.length do
     counter += 1
-    new_array
   end
+    new_array
 end
