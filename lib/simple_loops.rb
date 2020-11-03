@@ -19,6 +19,9 @@ end
 end
 
 def return_string_array(array)
+  counter = 0
   new_array = array.to_s
-  p new_array
+  while counter > new_array.length do
+    new_array
+  end
 end
